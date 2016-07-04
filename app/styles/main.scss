@@ -1,0 +1,32 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+/**/
+@import "scrolling-nav.scss";
+
+fieldset{
+  background:rgba(255, 255, 255, .3);
+  padding: 20px;
+  border-radius: 7px;
+
+}
+
+label{
+  color: #fff;
+}
+
+label, .btn{
+  float: left;
+
+}
+
+
+.contact-section{
+  background: url(../images/world.png);
+}
+
+.contact-section h1{ color: #fff;}
