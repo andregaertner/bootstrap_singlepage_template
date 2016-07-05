@@ -37,11 +37,8 @@ bootstrap/
 │   │   └── main.js
 │   ├── styles
 │   │   └── main.scss
-│   ├── about.html
 │   ├── apple-touch-icon.png
-│   ├── contact.html
 │   ├── index.html
-│   ├── projects.html
 │   └── robots.txt
 ├── bower_components/
 ├── └── ...
