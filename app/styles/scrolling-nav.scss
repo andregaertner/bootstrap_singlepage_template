@@ -46,11 +46,18 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
-.services-section {
+.mobil-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
 }
 
 .contact-section {
@@ -62,9 +69,32 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section,
 .about-section,
+.mobil-section,
 .services-section,
 .contact-section{
+  /*
 height: -moz-calc(100% - 50px);
 height: -webkit-calc(100% - 50px);
 height: calc(100% - 50px);
+*/
+}
+
+@media(max-width:767px) {
+  .intro-section,
+  .about-section,
+  .mobil-section,
+  .services-section,
+  .contact-section{
+    height: auto !important;
+  }
+
+  .form-control{
+    width: 100%;
+  }
+
+  .form-group{
+    overflow: hidden;
+     margin: 20px !important;
+     padding: 10px;
+  }
 }
